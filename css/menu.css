@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu{
+	width:100%;
+	height:50%;
+	position:relative;
+	background-color:#cc0000;
+}
+#menu ul{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	position:relative;
+	text-align:center;
+}
+.menu-item{
+	height:100%;
+	width:25%;
+	float:left;
+	list-style-type:none;
+	text-align:center;
+	position:relative;
+}
+.home-link-li{
+		height:100%;
+	width:25%;
+	float:left;
+	list-style-type:none;
+	text-align: center;
+	position:absolute;
+	left:50%;
+	margin-left:-12.5%;
+}
+.menu-item a{
+	width:150px;
+	height:150px;
+	background-color:#fff;
+	text-decoration:none;
+	color:#cc0000;
+	text-align:center;
+	position:absolute;
+	top:25%;
+	left:50%;
+	margin-left:-75px;
+	border-radius:75px;
+	border: 3px dotted #fff;
+	font-family:Interstate, Arial, Helvetica, sans-serif;
+}
+.menu-item a p, #home-link i{
+	margin-top:40px;
+/*	position:relative;
+*/	font-size:120%;
+}
+.link{
+	z-index: 1;
+}
+.link:hover{
+	-webkit-animation:fade-background 0.5s forwards;
+	-moz-animation:fade-background 0.5s forwards;
+	-ms-animation:fade-background 0.5s forwards;
+	animation:fade-background 0.5s forwards;
+}
+.active-link{
+	z-index: 20;
+	cursor:default;
+}
+.active-link:hover{
+		-webkit-animation:none;
+	-moz-animation:none;
+	-ms-animation:none;
+	animation:none;
+}
+#home-link i{
+	margin-top:30%;
+	left:50%;
+	margin-left: -37px;
+	position: absolute;
+}
+#home-link{
+	left:50%;
+	margin-left: -10%;
+	text-decoration:none;
+	text-align:center;
+	margin-top:30%;
+	z-index:1;
+	
+	position:absolute;
+	height:20%;
+	width:20%;
+	font-size:300%;
+	color:#fff;
+	background-color:#cc0000;
+	border:none;
+	display:none;
+}
+#home-link:hover{
+	-webkit-animation:none;
+	-moz-animation:none;
+	-ms-animation:none;
+	animation:none;
+}
+	
+@-webkit-keyframes fade-background{
+	from:{
+		background-color:#fff;
+		color:#cc0000;
+	}
+	to{
+		background-color:#333;
+		color:#fff;
+	}
+}
+@-moz-keyframes fade-background{
+	from:{
+		background-color:#fff;
+		color:#cc0000;
+	}
+	to{
+		background-color:#333;
+		color:#fff;
+	}
+}
+@keyframes fade-background{
+	from:{
+		background-color:#fff;
+		color:#cc0000;
+	}
+	to{
+		background-color:#333;
+		color:#fff;
+	}
+}
