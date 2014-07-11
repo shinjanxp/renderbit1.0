@@ -39,7 +39,7 @@ $('.link').click(function(){
 	var sec_id=id.substring(0,id.indexOf("-"));
 	$(this).addClass('active-link');
 	$('.link').not(this).removeClass('active-link');
-	if(sec_id=="about" || sec_id=="rates")
+	if(sec_id=="philosophy" || sec_id=="rates")
 		$('#'+sec_id).animate({right:"0"},500);
 	else
 		$('#'+sec_id).animate({left:"0"},500);
@@ -59,7 +59,7 @@ function revert(t){
 	{
 		$('#menu').animate({top:"0%"},500);
 		$('#logo').animate({top:"0%"},500);
-		$('#about').animate({right:"100%"},500);
+		$('#philosophy').animate({right:"100%"},500);
 		$('#rates').animate({right:"100%"},500);
 		$('#portfolio').animate({left:"100%"},500);
 		$('#contact').animate({left:"100%"},500);
@@ -70,7 +70,7 @@ function revert(t){
 	}
 	else
 	{
-		$('#about').animate({right:"100%"},500);
+		$('#philosophy').animate({right:"100%"},500);
 		$('#rates').animate({right:"100%"},500);
 		$('#portfolio').animate({left:"100%"},500);
 		$('#contact').animate({left:"100%"},500);

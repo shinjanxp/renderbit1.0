@@ -5,6 +5,12 @@
 font-family: Interstate;
 src:url(Interstate%20Black.ttf);
 }
+@font-face
+{
+font-family: Karnivore;
+src:url(Karnivore-Lite/KARNIVOB.ttf);
+}
+
 body{
 	padding:0;
 	margin:0;
@@ -29,6 +35,7 @@ body{
 #logo{
 	height:50%;
 	position:relative;
+	z-index: 20;
 }
 #object{
 	height:80%;
@@ -36,8 +43,18 @@ body{
 	width:100%;
 	position:absolute;
 }
+#logo svg{
+	left:50%;
+	position: absolute;
+	margin-left: -35%;
+	margin-top: 2%;
+}
+/*svg{
+		margin-top: 2%;
+	position: absolute;
 
-#about{
+}*/
+#philosophy{
 	right:100%;
 	-webkit-transform:skew(-20deg,0);
 	-moz-transform:skew(-20deg,0);
@@ -96,22 +113,37 @@ body{
 
 
 .invert-skew-left{
-	padding: 5% 10% 10% 10%;
+		-webkit-transform-origin:100% 0;
+	-moz-transform-origin:100% 0;
+	-ms-transform-origin:100% 0;
+	transform-origin:100% 0;
+	padding: 5% 15% 10% 15%;
 	-webkit-transform:skew(20deg,0);
 	-moz-transform:skew(20deg,0);
 	-ms-transform:skew(20deg,0);
 	transform:skew(20deg,0);
 	color: #fff;
+	position:relative;
+	height:100%;
 	font-family: Helvetca, Arial, sans-serif;
+	overflow:visible;
 }
 .invert-skew-right{
-		padding: 5% 10% 10% 10%;
+		padding: 5% 15% 10% 15%;
 	-webkit-transform:skew(-20deg,0);
 	-moz-transform:skew(-20deg,0);
 	-ms-transform:skew(-20deg,0);
 	transform:skew(-20deg,0);
 	color: #fff;
+	height:100%;
+	position:relative;
 	font-family: Helvetca, Arial, sans-serif;
+}
+.block_container{
+	height:50%;
+	/*position:absolute;*/
+	bottom:0;
+	width:100%;
 }
 a {
 	text-decoration: none;
