@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61399266"
-     inkscape:cx="601.28179"
-     inkscape:cy="147.34425"
+     inkscape:zoom="1.7366335"
+     inkscape:cx="188.70103"
+     inkscape:cy="163.71919"
      inkscape:current-layer="layer1"
      id="namedview3113"
      showgrid="false"
@@ -85,14 +85,6 @@
        y="415.72809"
        transform="matrix(0.99999821,0.00189272,-0.00157719,0.99999876,0,0)" />
     <rect
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.25991023px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect3126-2"
-       width="190"
-       height="130"
-       x="191.25157"
-       y="275.99454"
-       transform="matrix(0.99999952,9.78816e-4,-0.00304978,0.99999535,0,0)" />
-    <rect
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.87734371px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect3126-8"
        width="120"
@@ -115,14 +107,6 @@
        x="135.73676"
        y="275.36276" />
     <rect
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.80208063px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect3126-8-6"
-       width="75"
-       height="128"
-       x="317.24338"
-       y="-185.29962"
-       transform="matrix(-0.00163173,0.99999867,-0.99999833,-0.00182945,0,0)" />
-    <rect
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.37223786px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect3126-8-6-8"
        width="32"
@@ -130,16 +114,17 @@
        x="151.05627"
        y="207.51108"
        transform="matrix(0.99999838,0.00180259,-0.00165604,0.99999863,0,0)" />
-    <defs>
-      <style type="text/css">
-        <![CDATA[
+    <defs
+       id="defs3019">
+      <style
+         type="text/css"
+         id="style3021">
       @font-face {
-        font-family: "Karnivore";
+        font-family: &quot;Karnivore&quot;;
         src: url(Karnivore-Lite/KARNIVOR.ttf);
       }
-      ]]>
       </style>
-      </defs>
+    </defs>
     <text
        xml:space="preserve"
        style="font-size:141.02059937px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Karnivore;-inkscape-font-specification:Karnivore Bold"
@@ -152,5 +137,23 @@
          id="tspan3239"
          x="271.36475"
          y="552.82971">renderbit</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3025"
+       width="230"
+       height="130"
+       x="134.16763"
+       y="98.697807"
+       transform="translate(56.25845,177.72467)" />
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3021"
+       width="125"
+       height="78"
+       x="1.1516535"
+       y="138.42986"
+       transform="translate(56.25845,177.72467)"
+       ry="0"
+       rx="0" />
   </g>
 </svg>

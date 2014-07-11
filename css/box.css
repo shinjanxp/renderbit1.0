@@ -1,0 +1,65 @@
+/* visual rules for the logo boxs*/
+
+.box{
+	position: relative;
+	display: inline-block;
+	background-color: #000;
+	top:2%;
+	margin:0.5% 0.5% 0.5% 0.5%;
+}
+
+#res320_240{
+	left:25%;
+	width:3.2%;
+}
+#res320_240:before{
+	content: "";
+	display: block;
+	padding-top: 75%;
+}
+#res160_240{
+	left:25%;
+	width:1.6%;
+
+}
+#res160_240:before{
+	content: "";
+	display: block;
+	padding-top: 150%; 	
+}
+
+#res1920_1080{
+	left:25%;
+	width:19.2%;
+
+}
+#res1920_1080:before{
+	content: "";
+	display: block;
+	padding-top: 56.25%;
+}
+
+#res800_600{
+	left:25%;
+	width:8%;
+
+}
+#res800_600:before{
+	content: "";
+	display: block;
+	padding-top: 75%;
+}
+
+#text{
+	font-family: Karnivore;
+	font-size: 400%;
+	left:25%;
+	background-color:transparent; 	
+}
+.content{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
